@@ -1,0 +1,13 @@
+video: https://www.youtube.com/watch?v=zhpI6Yhz9_4&list=LL&index=6&t=147s
+github: https://github.com/MakerBytes/pythonlib
+
+
+
+pip3 install setuptools twine
+
+<go to folder using cd .\Documents\> note: directly name must not have space
+
+
+python3 setup.py sdist
+ls
+python3 -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
